@@ -1,0 +1,43 @@
+{
+  "id": "ohm-dc",
+  "title": "Tensão, corrente, resistência e potência",
+  "summary": "Lei de Ohm em corrente contínua, com resistência constante.",
+  "blocks": [
+    {
+      "heading": "As três grandezas",
+      "body": "A tensão, em volts (V), é a diferença de potencial entre dois pontos. A corrente, em ampères (A), é o fluxo de carga. A resistência, em ohms (Ω), limita essa corrente."
+    },
+    {
+      "heading": "Lei de Ohm",
+      "body": "Com resistência constante e corrente contínua, U = R × I. Se dois valores são conhecidos, o terceiro sai dessa relação. Resistência zero com tensão aplicada não produz uma corrente finita neste modelo."
+    },
+    {
+      "heading": "Potência",
+      "body": "Em corrente contínua, P = U × I, em watts (W). A energia em quilowatt-hora é a potência em quilowatts multiplicada pelo tempo de uso."
+    },
+    {
+      "heading": "Limite deste cálculo",
+      "body": "Isto não escolhe cabo, disjuntor, DR ou DPS. Corrente alternada, fator de potência, queda de tensão e modo de instalação entram em outras contas. Uma instalação real depende da norma aplicável e de um profissional habilitado."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "Uma resistência de 10 Ω é percorrida por 2 A em corrente contínua. Qual é a tensão?",
+      "choices": ["5 V", "12 V", "20 V", "0,2 V"],
+      "correctIndex": 2,
+      "explanation": "U = R × I = 10 × 2 = 20 V."
+    },
+    {
+      "prompt": "Há 12 V sobre uma resistência de 4 Ω. Qual é a corrente?",
+      "choices": ["48 A", "3 A", "16 A", "0,33 A"],
+      "correctIndex": 1,
+      "explanation": "I = U / R = 12 / 4 = 3 A."
+    },
+    {
+      "prompt": "Um circuito de corrente contínua tem 220 V e 5 A. Qual é a potência?",
+      "choices": ["44 W", "225 W", "1100 W", "11000 W"],
+      "correctIndex": 2,
+      "explanation": "P = U × I = 220 × 5 = 1100 W."
+    }
+  ]
+}

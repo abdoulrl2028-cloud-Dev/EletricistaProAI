@@ -1,0 +1,65 @@
+{
+  "updatedAt": "2026-10-22",
+  "plans": [
+    {
+      "id": "free",
+      "names": { "pt-BR": "Gratuito", "en": "Free", "fr": "Gratuit" },
+      "prices": [],
+      "features": {
+        "pt-BR": ["Aula introdutória da Lei de Ohm", "Calculadoras básicas", "Sem projetos nem relatórios"],
+        "en": ["Introductory Ohm's law lesson", "Basic calculators", "No projects or reports"],
+        "fr": ["Leçon d'introduction à la loi d'Ohm", "Calculatrices de base", "Sans projets ni rapports"]
+      },
+      "conditions": {
+        "pt-BR": "Uso local nesta versão. Não há conta nem cobrança.",
+        "en": "Local use in this version. There is no account and no charge.",
+        "fr": "Usage local dans cette version. Il n'y a ni compte ni paiement."
+      }
+    },
+    {
+      "id": "pro-monthly",
+      "names": { "pt-BR": "Pro mensal", "en": "Pro monthly", "fr": "Pro mensuel" },
+      "prices": [{ "currency": "BRL", "amount": 29.9, "period": "month" }],
+      "features": {
+        "pt-BR": ["Preço de teste para projetos, PDF e cálculos avançados", "Ainda não liberado nesta versão"],
+        "en": ["Test price for projects, PDF and advanced calculations", "Not unlocked in this version"],
+        "fr": ["Prix d'essai pour projets, PDF et calculs avancés", "Pas encore ouvert dans cette version"]
+      },
+      "conditions": {
+        "pt-BR": "A compra mostra as condições antes do pagamento. O pagamento ainda não está ligado.",
+        "en": "Purchase terms are shown before payment. Payment is not connected yet.",
+        "fr": "Les conditions s'affichent avant le paiement. Le paiement n'est pas encore relié."
+      }
+    },
+    {
+      "id": "pro-yearly",
+      "names": { "pt-BR": "Pro anual", "en": "Pro yearly", "fr": "Pro annuel" },
+      "prices": [{ "currency": "BRL", "amount": 299.9, "period": "year" }],
+      "features": {
+        "pt-BR": ["Mesmo alcance previsto do Pro, com preço anual de teste"],
+        "en": ["Same planned Pro scope, with a yearly test price"],
+        "fr": ["Même portée prévue que le Pro, avec un prix annuel d'essai"]
+      },
+      "conditions": {
+        "pt-BR": "Preço ajustável neste arquivo, sem mudar o código.",
+        "en": "Price can be changed in this file without changing code.",
+        "fr": "Le prix se modifie dans ce fichier, sans changer le code."
+      }
+    },
+    {
+      "id": "business",
+      "names": { "pt-BR": "Empresarial", "en": "Business", "fr": "Entreprise" },
+      "prices": [{ "currency": "BRL", "amount": 99.9, "period": "month", "from": true }],
+      "features": {
+        "pt-BR": ["Equipes, clientes e permissões ainda não existem"],
+        "en": ["Teams, clients and permissions do not exist yet"],
+        "fr": ["Équipes, clients et permissions n'existent pas encore"]
+      },
+      "conditions": {
+        "pt-BR": "Valor inicial de teste. A gestão por empresa ainda não está implementada.",
+        "en": "Initial test price. Company project management is not implemented.",
+        "fr": "Prix initial d'essai. La gestion par entreprise n'est pas implémentée."
+      }
+    }
+  ]
+}

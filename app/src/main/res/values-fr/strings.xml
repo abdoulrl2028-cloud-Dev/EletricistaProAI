@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eletricista Pro AI</string>
+    <string name="home_subtitle">Version 0.1. Les calculs et la leçon ci-dessous fonctionnent. Le reste est indiqué comme non réalisé.</string>
+    <string name="section_training">Formation</string>
+    <string name="section_training_body">Leçon sur la loi d\'Ohm avec un exercice corrigé.</string>
+    <string name="section_calculators">Calculatrices</string>
+    <string name="section_calculators_body">Loi d\'Ohm, puissance, courant estimé et consommation.</string>
+    <string name="section_plans">Forfaits</string>
+    <string name="section_plans_body">Prix d\'essai lus dans le fichier de configuration.</string>
+    <string name="section_pending">Pas encore réalisé</string>
+    <string name="pending_projects">Projets électriques</string>
+    <string name="pending_floor">Plan 2D</string>
+    <string name="pending_3d">Vue 3D</string>
+    <string name="pending_sim">Simulateur</string>
+    <string name="pending_ai">Eletricista AI</string>
+    <string name="pending_materials">Matériel</string>
+    <string name="pending_quotes">Devis et PDF</string>
+    <string name="disclaimer_short">Calcul pédagogique. Il ne remplace ni un professionnel habilité ni la norme applicable.</string>
+    <string name="language">Langue</string>
+    <string name="back">Retour</string>
+    <string name="calculate">Calculer</string>
+    <string name="voltage">Tension (V)</string>
+    <string name="current">Courant (A)</string>
+    <string name="resistance">Résistance (Ω)</string>
+    <string name="power">Puissance active (W)</string>
+    <string name="power_factor">Facteur de puissance, de 0 à 1</string>
+    <string name="hours">Heures d\'utilisation</string>
+    <string name="tariff">Tarif par kWh</string>
+    <string name="ohm_help">Saisissez deux valeurs. La troisième vient de U = R × I. Les trois ensemble sont vérifiées.</string>
+    <string name="result">Résultat</string>
+    <string name="err_need_two">Indiquez deux valeurs, ou trois valeurs qui ferment l\'équation.</string>
+    <string name="err_negative">Utilisez des nombres finis supérieurs ou égaux à zéro.</string>
+    <string name="err_zero_r">Une résistance nulle ne donne pas un courant fini dans ce modèle.</string>
+    <string name="err_zero_i">Un courant nul ne définit pas une résistance finie.</string>
+    <string name="err_inconsistent">Les trois valeurs ne ferment pas U = R × I.</string>
+    <string name="err_invalid_number">Un nombre est invalide.</string>
+    <string name="err_inputs">Vérifiez la tension, le courant, la puissance ou le facteur de puissance.</string>
+    <string name="dc_power_help">Puissance en courant continu : P = U × I.</string>
+    <string name="estimated_current_help">Monophasé : I = P / (U × FP). Triphasé, avec tension entre phases : I = P / (√3 × U × FP). Ceci ne choisit ni câble ni disjoncteur.</string>
+    <string name="single_phase">Monophasé</string>
+    <string name="three_phase">Triphasé</string>
+    <string name="energy_help">kWh = puissance (W) × heures / 1000. Le coût multiplie les kWh par le tarif. Il n\'y a pas de conversion de devise.</string>
+    <string name="energy_result">Énergie : %1$s kWh</string>
+    <string name="cost_result">Coût : %1$s</string>
+    <string name="open_ohm">Loi d\'Ohm</string>
+    <string name="open_power">Puissance et courant</string>
+    <string name="open_energy">Consommation et coût</string>
+    <string name="lesson_complete">Leçon enregistrée sur cet appareil</string>
+    <string name="lesson_score">Réponses justes : %1$d sur %2$d</string>
+    <string name="check_answers">Corriger</string>
+    <string name="not_a_certificate">Cet enregistrement est une progression dans l\'application. Ce n\'est ni un certificat professionnel ni une qualification reconnue.</string>
+    <string name="answer_correct">Juste</string>
+    <string name="answer_wrong">À revoir</string>
+    <string name="plans_purchase_disabled">Achat désactivé. Le paiement exige Google Play Billing en environnement de test et une vérification sur le serveur. Aucune carte n\'est demandée ici.</string>
+    <string name="plans_file_error">Les prix n\'ont pas pu être lus.</string>
+    <string name="per_month">par mois</string>
+    <string name="per_year">par an</string>
+    <string name="price_from">à partir de %1$s</string>
+    <string name="test_price">Prix d\'essai</string>
+    <string name="no_price">Sans paiement dans cette version</string>
+    <string name="pending_body_projects">Créer, enregistrer et calculer un projet d\'installation n\'est pas encore réalisé.</string>
+    <string name="pending_body_floor">L\'éditeur de plan 2D n\'est pas encore réalisé.</string>
+    <string name="pending_body_3d">La vue 3D n\'est pas encore réalisée. Les appareils ne seront pas de simples cubes ; les modèles viendront de Blender en glTF.</string>
+    <string name="pending_body_sim">Le simulateur électrique n\'est pas encore réalisé. Aucune animation ne remplace un modèle électrique.</string>
+    <string name="pending_body_ai">L\'assistant n\'est pas relié à un modèle. Aucune analyse de plan n\'est produite.</string>
+    <string name="pending_body_materials">Le catalogue et les prix fournisseurs ne sont pas encore réalisés.</string>
+    <string name="pending_body_quotes">Le devis et le PDF ne sont pas encore réalisés.</string>
+    <string name="formula_ohm_voltage">U = R × I</string>
+    <string name="formula_ohm_current">I = U / R</string>
+    <string name="formula_ohm_resistance">R = U / I</string>
+    <string name="formula_ohm_check">Vérification de U = R × I</string>
+    <string name="formula_dc_power">P = U × I</string>
+    <string name="formula_single">I = P / (U × FP)</string>
+    <string name="formula_three">I = P / (√3 × U × FP)</string>
+    <string name="formula_energy">kWh = P × h / 1000</string>
+    <string name="solved_ohm">U = %1$s V, I = %2$s A, R = %3$s Ω</string>
+    <string name="solved_power">P = %1$s W</string>
+    <string name="solved_current">I = %1$s A</string>
+    <string name="course_missing">La leçon est introuvable.</string>
+    <string name="course_language_note">Le texte de cette leçon est en portugais.</string>
+    <string name="err_answer_all">Répondez aux trois questions.</string>
+    <string name="loading">Chargement</string>
+    <string name="updated_at">Configuration du %1$s</string>
+</resources>

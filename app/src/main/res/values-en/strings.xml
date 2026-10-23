@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eletricista Pro AI</string>
+    <string name="home_subtitle">Version 0.1. The calculations and the lesson below work. Everything else is marked as not built yet.</string>
+    <string name="section_training">Training</string>
+    <string name="section_training_body">Ohm\'s law lesson with a graded exercise.</string>
+    <string name="section_calculators">Calculators</string>
+    <string name="section_calculators_body">Ohm\'s law, power, estimated current and energy use.</string>
+    <string name="section_plans">Plans</string>
+    <string name="section_plans_body">Test prices read from the configuration file.</string>
+    <string name="section_pending">Not implemented yet</string>
+    <string name="pending_projects">Electrical projects</string>
+    <string name="pending_floor">2D floor plan</string>
+    <string name="pending_3d">3D view</string>
+    <string name="pending_sim">Simulator</string>
+    <string name="pending_ai">Eletricista AI</string>
+    <string name="pending_materials">Materials</string>
+    <string name="pending_quotes">Quotes and PDF</string>
+    <string name="disclaimer_short">Teaching calculation. It does not replace a qualified professional or the applicable standard.</string>
+    <string name="language">Language</string>
+    <string name="back">Back</string>
+    <string name="calculate">Calculate</string>
+    <string name="voltage">Voltage (V)</string>
+    <string name="current">Current (A)</string>
+    <string name="resistance">Resistance (Ω)</string>
+    <string name="power">Active power (W)</string>
+    <string name="power_factor">Power factor, from 0 to 1</string>
+    <string name="hours">Hours of use</string>
+    <string name="tariff">Price per kWh</string>
+    <string name="ohm_help">Enter two values. The third comes from V = R × I. Three values are checked together.</string>
+    <string name="result">Result</string>
+    <string name="err_need_two">Enter two values, or three values that satisfy the equation.</string>
+    <string name="err_negative">Use finite numbers greater than or equal to zero.</string>
+    <string name="err_zero_r">Zero resistance does not produce a finite current in this model.</string>
+    <string name="err_zero_i">Zero current does not define a finite resistance.</string>
+    <string name="err_inconsistent">The three values do not satisfy V = R × I.</string>
+    <string name="err_invalid_number">One of the numbers is invalid.</string>
+    <string name="err_inputs">Check voltage, current, power or power factor.</string>
+    <string name="dc_power_help">Direct-current power: P = V × I.</string>
+    <string name="estimated_current_help">Single-phase: I = P / (V × PF). Three-phase, using line voltage: I = P / (√3 × V × PF). This does not select a cable or a breaker.</string>
+    <string name="single_phase">Single-phase</string>
+    <string name="three_phase">Three-phase</string>
+    <string name="energy_help">kWh = power (W) × hours / 1000. Cost multiplies kWh by the tariff. There is no currency conversion.</string>
+    <string name="energy_result">Energy: %1$s kWh</string>
+    <string name="cost_result">Cost: %1$s</string>
+    <string name="open_ohm">Ohm\'s law</string>
+    <string name="open_power">Power and current</string>
+    <string name="open_energy">Energy and cost</string>
+    <string name="lesson_complete">Lesson saved on this device</string>
+    <string name="lesson_score">Correct: %1$d of %2$d</string>
+    <string name="check_answers">Grade</string>
+    <string name="not_a_certificate">This record is progress inside the app. It is not a professional certificate or a recognized qualification.</string>
+    <string name="answer_correct">Correct</string>
+    <string name="answer_wrong">Review</string>
+    <string name="plans_purchase_disabled">Purchases are off. Payment requires Google Play Billing in a test environment and a server check. No card is requested here.</string>
+    <string name="plans_file_error">The prices could not be read.</string>
+    <string name="per_month">per month</string>
+    <string name="per_year">per year</string>
+    <string name="price_from">from %1$s</string>
+    <string name="test_price">Test price</string>
+    <string name="no_price">No charge in this version</string>
+    <string name="pending_body_projects">Creating, saving and calculating an installation project is not implemented.</string>
+    <string name="pending_body_floor">The 2D floor-plan editor is not implemented.</string>
+    <string name="pending_body_3d">The 3D view is not implemented. Equipment will not be generic cubes; models will come from Blender as glTF.</string>
+    <string name="pending_body_sim">The electrical simulator is not implemented. There is no animation standing in for an electrical model.</string>
+    <string name="pending_body_ai">The assistant is not connected to a model. No floor-plan analysis is produced.</string>
+    <string name="pending_body_materials">The catalog and supplier prices are not implemented.</string>
+    <string name="pending_body_quotes">Quotes and PDF export are not implemented.</string>
+    <string name="formula_ohm_voltage">V = R × I</string>
+    <string name="formula_ohm_current">I = V / R</string>
+    <string name="formula_ohm_resistance">R = V / I</string>
+    <string name="formula_ohm_check">Check of V = R × I</string>
+    <string name="formula_dc_power">P = V × I</string>
+    <string name="formula_single">I = P / (V × PF)</string>
+    <string name="formula_three">I = P / (√3 × V × PF)</string>
+    <string name="formula_energy">kWh = P × h / 1000</string>
+    <string name="solved_ohm">V = %1$s V, I = %2$s A, R = %3$s Ω</string>
+    <string name="solved_power">P = %1$s W</string>
+    <string name="solved_current">I = %1$s A</string>
+    <string name="course_missing">The lesson was not found.</string>
+    <string name="course_language_note">This lesson text is in Portuguese.</string>
+    <string name="err_answer_all">Answer all three questions.</string>
+    <string name="loading">Loading</string>
+    <string name="updated_at">Configuration from %1$s</string>
+</resources>

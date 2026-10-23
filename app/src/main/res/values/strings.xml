@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eletricista Pro AI</string>
+    <string name="home_subtitle">Versão 0.1. Os cálculos e a aula abaixo funcionam. O restante está indicado como pendente.</string>
+    <string name="section_training">Formação</string>
+    <string name="section_training_body">Aula de Lei de Ohm com exercício corrigido.</string>
+    <string name="section_calculators">Calculadoras</string>
+    <string name="section_calculators_body">Lei de Ohm, potência, corrente estimada e consumo.</string>
+    <string name="section_plans">Planos</string>
+    <string name="section_plans_body">Preços de teste lidos do arquivo de configuração.</string>
+    <string name="section_pending">Ainda não implementado</string>
+    <string name="pending_projects">Projetos elétricos</string>
+    <string name="pending_floor">Planta 2D</string>
+    <string name="pending_3d">Visualização 3D</string>
+    <string name="pending_sim">Simulador</string>
+    <string name="pending_ai">Eletricista AI</string>
+    <string name="pending_materials">Materiais</string>
+    <string name="pending_quotes">Orçamentos e PDF</string>
+    <string name="disclaimer_short">Cálculo didático. Não substitui profissional habilitado nem a norma aplicável.</string>
+    <string name="language">Idioma</string>
+    <string name="back">Voltar</string>
+    <string name="calculate">Calcular</string>
+    <string name="voltage">Tensão (V)</string>
+    <string name="current">Corrente (A)</string>
+    <string name="resistance">Resistência (Ω)</string>
+    <string name="power">Potência ativa (W)</string>
+    <string name="power_factor">Fator de potência, de 0 a 1</string>
+    <string name="hours">Horas de uso</string>
+    <string name="tariff">Tarifa por kWh</string>
+    <string name="ohm_help">Preencha dois valores. O terceiro sai de U = R × I. Os três juntos são conferidos.</string>
+    <string name="result">Resultado</string>
+    <string name="err_need_two">Informe dois valores, ou três valores que fechem a conta.</string>
+    <string name="err_negative">Use números finitos maiores ou iguais a zero.</string>
+    <string name="err_zero_r">Resistência zero não produz corrente finita neste modelo.</string>
+    <string name="err_zero_i">Corrente zero não define uma resistência finita.</string>
+    <string name="err_inconsistent">Os três valores não fecham U = R × I.</string>
+    <string name="err_invalid_number">Há um número inválido.</string>
+    <string name="err_inputs">Revise tensão, corrente, potência ou fator de potência.</string>
+    <string name="dc_power_help">Potência em corrente contínua: P = U × I.</string>
+    <string name="estimated_current_help">Monofásico: I = P / (U × FP). Trifásico, com tensão de linha: I = P / (√3 × U × FP). Isto não escolhe cabo nem disjuntor.</string>
+    <string name="single_phase">Monofásico</string>
+    <string name="three_phase">Trifásico</string>
+    <string name="energy_help">kWh = potência (W) × horas / 1000. O custo multiplica os kWh pela tarifa. Não há conversão de moeda.</string>
+    <string name="energy_result">Energia: %1$s kWh</string>
+    <string name="cost_result">Custo: %1$s</string>
+    <string name="open_ohm">Lei de Ohm</string>
+    <string name="open_power">Potência e corrente</string>
+    <string name="open_energy">Consumo e custo</string>
+    <string name="lesson_complete">Aula registrada neste aparelho</string>
+    <string name="lesson_score">Acertos: %1$d de %2$d</string>
+    <string name="check_answers">Corrigir</string>
+    <string name="not_a_certificate">Este registro é progresso no aplicativo. Não é certificado profissional nem qualificação reconhecida.</string>
+    <string name="answer_correct">Certa</string>
+    <string name="answer_wrong">Revise</string>
+    <string name="plans_purchase_disabled">Compra desligada. O pagamento só entra com Google Play Billing em ambiente de teste e conferência no servidor. Nenhum cartão é pedido aqui.</string>
+    <string name="plans_file_error">Não foi possível ler os preços.</string>
+    <string name="per_month">por mês</string>
+    <string name="per_year">por ano</string>
+    <string name="price_from">a partir de %1$s</string>
+    <string name="test_price">Preço de teste</string>
+    <string name="no_price">Sem cobrança nesta versão</string>
+    <string name="pending_body_projects">Criar, salvar e calcular um projeto de instalação ainda não está implementado.</string>
+    <string name="pending_body_floor">O editor de planta 2D ainda não está implementado.</string>
+    <string name="pending_body_3d">A visualização 3D ainda não está implementada. Os equipamentos não serão cubos genéricos; os modelos virão do Blender em glTF.</string>
+    <string name="pending_body_sim">O simulador elétrico ainda não está implementado. Não há animação no lugar de um modelo elétrico.</string>
+    <string name="pending_body_ai">O assistente ainda não está ligado a um modelo. Nenhuma análise de planta é produzida.</string>
+    <string name="pending_body_materials">O catálogo e os preços por fornecedor ainda não estão implementados.</string>
+    <string name="pending_body_quotes">Orçamento e PDF ainda não estão implementados.</string>
+    <string name="formula_ohm_voltage">U = R × I</string>
+    <string name="formula_ohm_current">I = U / R</string>
+    <string name="formula_ohm_resistance">R = U / I</string>
+    <string name="formula_ohm_check">Conferência de U = R × I</string>
+    <string name="formula_dc_power">P = U × I</string>
+    <string name="formula_single">I = P / (U × FP)</string>
+    <string name="formula_three">I = P / (√3 × U × FP)</string>
+    <string name="formula_energy">kWh = P × h / 1000</string>
+    <string name="solved_ohm">U = %1$s V, I = %2$s A, R = %3$s Ω</string>
+    <string name="solved_power">P = %1$s W</string>
+    <string name="solved_current">I = %1$s A</string>
+    <string name="course_missing">A aula não foi encontrada.</string>
+    <string name="course_language_note">O texto desta aula está em português.</string>
+    <string name="err_answer_all">Responda as três questões.</string>
+    <string name="loading">Carregando</string>
+    <string name="updated_at">Configuração de %1$s</string>
+</resources>
